@@ -1,18 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { App } from './App.jsx'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './index.css'
-import { FooterNav } from './FooterNav.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { App } from './App.jsx';
+import { FooterNav } from './FooterNav.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.render(
   <>
-  <App />
-  </>
-)
+    <App />
+  </>,
+  document.getElementById('root')
+);
 
-ReactDOM.createRoot(document.getElementById('footer-navbar')).render(
+ReactDOM.render(
   <>
-  <FooterNav />
-  </>
-)
+    <FooterNav />
+  </>,
+  document.getElementById('footer-navbar')
+);
