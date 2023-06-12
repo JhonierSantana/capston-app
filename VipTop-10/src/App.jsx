@@ -1,10 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-import { MainBody } from './components/MainBody.jsx';
-import { SearchBar } from './components/SearchBar.jsx';
-import { FooterNav } from './components/FooterNav.jsx';
-
 export const App = () => {
 
   return (
@@ -18,9 +14,6 @@ export const App = () => {
           <Button variant="secondary">Settings</Button>
         </Container>
       </header>
-      <MainBody />
-      <SearchBar />
-      <FooterNav />
     </>
   )
 }
