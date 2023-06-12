@@ -24,8 +24,22 @@
   background-color: #ccc;
 }
 
+.search-bar {
+  margin-top: 15px;
+  padding: 15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #ccc;
+}
+
 .footer-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: #eee;
+  padding: 10px;
   align-items: center;
 }
 .footer-bar .container {
@@ -36,13 +50,4 @@
 .list-group {
   width: 300px;
   height: 150px;
-}
-
-.footer-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f8f9fa;
-  padding: 10px;
 }

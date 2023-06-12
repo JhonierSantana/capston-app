@@ -1,7 +1,6 @@
 import React from 'react';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Container from 'react-bootstrap/Container';
-import './App.css';
 
 export const FooterNav = () => {
   const alertClicked = () => {
