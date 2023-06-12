@@ -8,7 +8,7 @@ export const FooterNav = () => {
   };
 
   return (
-    <footer className='footer-bar py-2'>
+    <footer className='footer-bar py-2 fixed="bottom"'>
       <Container>
         <p className='page-info col-md-6 fs-5'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
