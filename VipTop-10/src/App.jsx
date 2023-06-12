@@ -5,7 +5,6 @@ import { MainBody } from './components/MainBody.jsx';
 import { SearchBar } from './components/SearchBar.jsx';
 import { FooterNav } from './components/FooterNav.jsx';
 
-
 export const App = () => {
 
   return (
