@@ -8,14 +8,14 @@ export const Box_content = () => {
         <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="container d-flex">
+                    <div class="container">
                         <div class="item-box rounded">Box 1</div>
                         <div class="item-box rounded">Box 2</div>
                         <div class="item-box rounded">Box 3</div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container d-flex">
+                    <div class="container">
                         <div class="item-box rounded">Box 4</div>
                         <div class="item-box rounded">Box 5</div>
                         <div class="item-box rounded">Box 6</div>
