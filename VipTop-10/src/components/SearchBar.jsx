@@ -1,6 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+
 
 export const SearchBar = () => {
   return (
@@ -16,7 +18,7 @@ export const SearchBar = () => {
             <Form.Control type='text' placeholder='City...' />
           </Form>
         </div>
-        <div className="flex-grow-1">
+        <div className="me-2 flex-grow-1">
           <Form>
             <Form.Select name='City'>
               <option value=''>Category...</option>
@@ -27,6 +29,7 @@ export const SearchBar = () => {
             </Form.Select>
           </Form>
         </div>
+        <Button variant="secondary">Search</Button>
       </div>
     </Container>
   );
