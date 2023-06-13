@@ -27,21 +27,39 @@
 .search-bar {
   margin-top: 15px;
   padding: 15px;
-  height: 70px;
+  height: 10vh;
   display: flex;
   align-items: center;
   background-color: #ccc;
 }
 
+.search-bar .form-control {
+  margin-right: 10px;
+}
+
+.search-bar .form-select {
+  width: 150px;
+  margin-right: 150px;
+}
+
+
 .footer-bar {
-  position: fixed;
+  background-color: #eee;
+  padding: 10px;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #eee;
-  padding: 10px;
-  align-items: center;
 }
+
+
+
+@media (min-width: 768px) {
+  .footer-bar {
+    position: static;
+  }
+}
+
 .footer-bar .container {
   padding: 30px;
   display: flex;

@@ -5,27 +5,15 @@ import { MainBody } from './components/MainBody.jsx';
 import { FooterNav } from './components/FooterNav.jsx';
 import { SearchBar } from './components/SearchBar.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+import './App.css';
 import './index.css';
 
 ReactDOM.render(
-  <>
+  <React.StrictMode>
     <App />
-  </>,
-  document.getElementById('header-bar')
-);
-
-ReactDOM.render(
-  <>
     <MainBody />
     <SearchBar />
-  </>,
-  document.getElementById('root')
-);
-
-ReactDOM.render(
-  <>
     <FooterNav />
-  </>,
-  document.getElementById('footer-navbar')
+  </React.StrictMode>,
+  document.getElementById('root')
 );
