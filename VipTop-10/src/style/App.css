@@ -21,7 +21,12 @@
 
 .jumbotron {
   margin-top: 15px;
-  background-color: #ccc;
+  color: white;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background: url(../../img/img_jumbotron/jumbotron.jpg) no-repeat;
+  background-size: 1116px 500px;
 }
 
 .search-bar {
