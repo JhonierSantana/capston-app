@@ -11,7 +11,7 @@
     height: 300px;
 }
 
-.container {
+#cr {
     display: flex;
     justify-content: space-around;
 }
