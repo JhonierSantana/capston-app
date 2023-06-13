@@ -34,14 +34,17 @@
 }
 
 .search-bar .form-control {
+  flex-grow: 1; /* Permite que el input crezca automáticamente */
+  flex-basis: 0; /* Reinicia el ancho base */
   margin-right: 10px;
-  width: 330px;
 }
 
 .search-bar .form-select {
-  width: 330px;
-  margin-right: 150px;
+  flex-grow: 1; /* Permite que el select crezca automáticamente */
+  flex-basis: 0; /* Reinicia el ancho base */
+  margin-right: 10px;
 }
+
 
 
 .footer-bar {
