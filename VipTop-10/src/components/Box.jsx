@@ -12,6 +12,7 @@ export const Box_content = () => {
                         <div className="item-box rounded">Box 1</div>
                         <div className="item-box rounded">Box 2</div>
                         <div className="item-box rounded">Box 3</div>
+                        <div className="item-box rounded">Box 4</div>
                     </div>
                 </div>
                 <div className="carousel-item">
@@ -19,6 +20,7 @@ export const Box_content = () => {
                         <div className="item-box rounded">Box 4</div>
                         <div className="item-box rounded">Box 5</div>
                         <div className="item-box rounded">Box 6</div>
+                        <div className="item-box rounded">Box 8</div>
                     </div>
                 </div>
             </div>
