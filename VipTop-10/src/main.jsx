@@ -4,10 +4,10 @@ import { App } from './App.jsx';
 import { MainBody } from './components/MainBody.jsx';
 import { FooterNav } from './components/FooterNav.jsx';
 import { SearchBar } from './components/SearchBar.jsx';
-import { Box_content } from './Box.jsx';
+import { Box_content } from './components/Box.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import './index.css';
+import '../src/style/App.css';
+import '../src/style//index.css';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,11 +1,11 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './Box.css'
+import '../style/Box.css'
 
 export const Box_content = () => {
     return (
-        <div id="myCarousel" class="carousel slide" data-bs-onPause="hover">
+        <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container d-flex">
