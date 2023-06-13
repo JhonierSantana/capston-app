@@ -74,10 +74,10 @@ export const FooterNav = () => {
     }]
   }];
 
-  return<SimpleReactFooter
-      description={description}
-      title={title}
-      columns={columns}
-      backgroundColor="lightgrey"
-    />;
+  return <SimpleReactFooter
+    description={description}
+    title={title}
+    columns={columns}
+    backgroundColor="#FFFCF2"
+  />;
 }

@@ -3,7 +3,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .head-bar {
-    background-color: #eee;
+    background-color: #FFFCF2;
 }
 
 
@@ -35,7 +35,7 @@
   height: 11vh;
   display: flex;
   align-items: center;
-  background-color: #ccc;
+  background-color: #FFFCF2;
 }
 
 .search-bar .form-control {
@@ -53,7 +53,7 @@
 
 
 .footer-bar {
-  background-color: #eee;
+  background-color: #FFFCF2;
   padding: 10px;
   position: relative;
   bottom: 0;
@@ -77,4 +77,7 @@
 .list-group {
   width: 300px;
   height: 150px;
+}
+.btn{
+  background-color: #EB5E28;
 }

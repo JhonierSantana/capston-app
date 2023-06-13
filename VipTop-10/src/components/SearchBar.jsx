@@ -29,7 +29,7 @@ export const SearchBar = () => {
             </Form.Select>
           </Form>
         </div>
-        <Button variant="secondary">Search</Button>
+        <Button variant="secondary" className='btn'>Search</Button>
       </div>
     </Container>
   );

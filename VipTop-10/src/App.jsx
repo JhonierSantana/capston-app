@@ -11,7 +11,7 @@ export const App = () => {
             <img src="../img/logo.png" alt="logo" />
           </picture>
           <h4 className='fs-1'>VIPTOP-10</h4>
-          <Button variant="secondary">Settings</Button>
+          <Button variant="secondary" className='btn'>Settings</Button>
         </Container>
       </header>
     </>

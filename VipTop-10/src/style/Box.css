@@ -6,7 +6,7 @@
     gap: 15px;
 }
 .item-box{
-    background-color: #ccc;
+    background-color: #EB5E28;
     width: 350px;
     height: 350px;
     display: flex;
@@ -15,7 +15,7 @@
     align-items: center;
 }
 .item-box:hover{
-    box-shadow: 0px 0px 20px cyan;
+    box-shadow: 0px 0px 20px #CCC5B9;
     cursor: pointer;
 }
 .item-box:hover #logito{
@@ -32,3 +32,11 @@
     width: 200px;
     height: 200px;
 }
+
+h3{
+    color: #252422;
+}
+.item-box:hover h3{
+    color: #FFFCF2;
+}
+
