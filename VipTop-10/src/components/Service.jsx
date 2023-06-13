@@ -20,7 +20,7 @@ export const Service = () => {
                         <picture>
                             <h3>Gym</h3>
                             <hr />
-                            <img src="../../img/img_service/meds.png" alt="Gym-logo" id='logito' />
+                            <img src="../../img/img_service/weights.png" alt="Gym-logo" id='logito' />
                         </picture>
                     </div>
                 </div>
@@ -31,14 +31,14 @@ export const Service = () => {
                         <picture>
                             <h3>Pharmacy</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Pharmacy-logo" id='logito' />
+                            <img src="../../img/img_service/meds.png" alt="Pharmacy-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Veterinary Care</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Veterinary Care-logo" id='logito' />
+                            <img src="../../img/img_service/vet.png" alt="Veterinary Care-logo" id='logito' />
                         </picture>
                     </div>
                 </div>

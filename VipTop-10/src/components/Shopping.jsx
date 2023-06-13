@@ -13,21 +13,21 @@ export const Shopping = () => {
                         <picture>
                             <h3>Book Store</h3>
                             <hr />
-                            <img src="../../img/img_service/car-rent.png" alt="Book Store-logo" id='logito' />
+                            <img src="../../img/img_Shopping/book.png" alt="Book Store-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
-                            <h3>Convenience Store</h3>
+                            <h3>Conv. Store</h3>
                             <hr />
-                            <img src="../../img/img_service/meds.png" alt="Convenience Store-logo" id='logito' />
+                            <img src="../../img/img_Shopping/convenience-store.png" alt="Convenience Store-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
-                            <h3>Department Store</h3>
+                            <h3>Dep. Store</h3>
                             <hr />
-                            <img src="../../img/img_service/vet.png" alt="Department Store-logo" id='logito' />
+                            <img src="../../img/img_Shopping/department.png" alt="Department Store-logo" id='logito' />
                         </picture>
                     </div>
                 </div>
@@ -38,14 +38,14 @@ export const Shopping = () => {
                         <picture>
                             <h3>Jewelry Store</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Jewelry Store-logo" id='logito' />
+                            <img src="../../img/img_Shopping/jewelry.png" alt="Jewelry Store-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Liquor Store</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Liquor Store-logo" id='logito' />
+                            <img src="../../img/img_Shopping/wine.png" alt="Liquor Store-logo" id='logito' />
                         </picture>
                     </div>
                 </div>

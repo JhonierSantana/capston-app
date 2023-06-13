@@ -13,21 +13,21 @@ export const Food = () => {
                         <picture>
                             <h3>Bakery</h3>
                             <hr />
-                            <img src="../../img/img_service/car-rent.png" alt="Bakery-logo" id='logito' />
+                            <img src="../../img/img_food/cupcake.png" alt="Bakery-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Bar</h3>
                             <hr />
-                            <img src="../../img/img_service/meds.png" alt="Bar-logo" id='logito' />
+                            <img src="../../img/img_food/beer.png" alt="Bar-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Cafe</h3>
                             <hr />
-                            <img src="../../img/img_service/vet.png" alt="Cafe-logo" id='logito' />
+                            <img src="../../img/img_food/coffee-cup.png" alt="Cafe-logo" id='logito' />
                         </picture>
                     </div>
                 </div>
@@ -38,14 +38,14 @@ export const Food = () => {
                         <picture>
                             <h3>Meal Takeaway</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Meal Takeaway-logo" id='logito' />
+                            <img src="../../img/img_food/takeaway.png" alt="Meal Takeaway-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Restaurant</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Restaurant-logo" id='logito' />
+                            <img src="../../img/img_food/restaurant.png" alt="Restaurant-logo" id='logito' />
                         </picture>
                     </div>
                 </div>

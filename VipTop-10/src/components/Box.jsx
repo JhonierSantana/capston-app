@@ -16,7 +16,7 @@ export const Box_content = () => {
         <div id="myCarousel" className="carousel slide">
             <Container>
                 ReactDOM.render(
-                    <Attractions />
+                    <Shopping />
                 )
             </Container>
             <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">

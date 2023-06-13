@@ -13,21 +13,21 @@ export const Attractions = () => {
                         <picture>
                             <h3>Aquarium</h3>
                             <hr />
-                            <img src="../../img/img_service/car-rent.png" alt="Aquarium-logo" id='logito' />
+                            <img src="../../img/img_attractions/aquarium.png" alt="Aquarium-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Art Gallery</h3>
                             <hr />
-                            <img src="../../img/img_service/meds.png" alt="Art Gallery-logo" id='logito' />
+                            <img src="../../img/img_attractions/gallery.png" alt="Art Gallery-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Museum</h3>
                             <hr />
-                            <img src="../../img/img_service/vet.png" alt="Museum-logo" id='logito' />
+                            <img src="../../img/img_attractions/museum.png" alt="Museum-logo" id='logito' />
                         </picture>
                     </div> 
                 </div>
@@ -38,14 +38,14 @@ export const Attractions = () => {
                         <picture>
                             <h3>Tourist Attraction</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Tourist Attraction-logo" id='logito' />
+                            <img src="../../img/img_attractions/statue-of-liberty.png" alt="Tourist Attraction-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Zoo</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Zoo-logo" id='logito' />
+                            <img src="../../img/img_attractions/zoo.png" alt="Zoo-logo" id='logito' />
                         </picture>
                     </div>
                 </div>
