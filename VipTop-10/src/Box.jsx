@@ -5,7 +5,7 @@ import './Box.css'
 
 export const Box_content = () => {
     return (
-        <div id="myCarousel" class="carousel slide" data-bs-onPause="hover">
+        <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container d-flex">
