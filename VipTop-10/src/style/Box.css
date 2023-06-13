@@ -1,0 +1,17 @@
+.carousel{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.item-box{
+    background-color: #ccc;
+    width: 200px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
