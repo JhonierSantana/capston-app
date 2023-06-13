@@ -53,7 +53,7 @@ export const Box_content = () => {
                             <picture>
                                 <h3>Car Rent</h3>
                                 <hr />
-                                <img src="../../img/img_service/car-rent.png" alt="car-rent-logo" />
+                                <img src="../../img/img_service/car-rent.png" alt="car-rent-logo" id='logito'/>
                             </picture>
                         </div>
                         <div className="item-box mt-3 rounded">
