@@ -1,17 +1,22 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container';
+import { Entertaiment } from './Entertaiment';
+import { Attractions } from './Attractions';
+import { Food } from './Food';
+import { Shopping } from './Shopping';
+import { Service } from './Service';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Container from 'react-bootstrap/Container';
 import '../style/App.css'
 import '../style/Box.css'
-import { Entertaiment } from './Entertaiment';
+
 
 export const Box_content = () => {
     return (
         <div id="myCarousel" className="carousel slide">
             <Container>
                 ReactDOM.render(
-                    <Entertaiment />
+                    <Attractions />
                 )
             </Container>
             <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">

@@ -71,7 +71,6 @@ export const Entertaiment = () => {
                     </div>
                 </div>
             </div>
-        </div >
-
+        </div>
     )
 }
