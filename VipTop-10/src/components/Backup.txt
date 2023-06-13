@@ -1,0 +1,66 @@
+<div className="carousel-inner">
+            <div className="carousel-item active">
+                <div className="container" id='cr'>
+                    <div className="item-box mt-3 rounded">
+                        <picture>
+                            <h3>Amusement Park</h3>
+                            <hr />
+                            <img src="../../img/img_service/meds.png" alt="Amusement Park" id='logito' />
+                        </picture>
+                        <div className="item-box mt-3 rounded">
+                            <picture>
+                                <h3>Bowling Alley</h3>
+                                <hr />
+                                <img src="../../img/img_service/meds.png" alt="Bowling Alley" id='logito' />
+                            </picture>
+                        </div>
+                        <div className="item-box mt-3 rounded">
+                            <picture>
+                                <h3>Casino</h3>
+                                <hr />
+                                <img src="../../img/img_service/meds.png" alt="Casino" id='logito' />
+                            </picture>
+                        </div>
+                        <div className="item-box mt-3 rounded">
+                            <picture>
+                                <h3>Movie Theater</h3>
+                                <hr />
+                                <img src="../../img/img_service/meds.png" alt="Movie Theater" id='logito' />
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="carousel-item active">
+                <div className="container" id='cr'>
+                    <div className="item-box mt-3 rounded">
+                        <picture>
+                            <h3>Night Club</h3>
+                            <hr />
+                            <img src="../../img/img_service/meds.png" alt="Night Club" id='logito' />
+                        </picture>
+                        <div className="item-box mt-3 rounded">
+                            <picture>
+                                <h3>Stadium</h3>
+                                <hr />
+                                <img src="../../img/img_service/meds.png" alt="Stadium" id='logito' />
+                            </picture>
+                        </div>
+                        <div className="item-box mt-3 rounded">
+                            <picture>
+                                <h3>Beauty Salon</h3>
+                                <hr />
+                                <img src="../../img/img_service/meds.png" alt="Beauty Salon" id='logito' />
+                            </picture>
+                        </div>
+                        <div className="item-box mt-3 rounded">
+                            <picture>
+                                <h3>Spa</h3>
+                                <hr />
+                                <img src="../../img/img_service/meds.png" alt="Spa" id='logito' />
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
