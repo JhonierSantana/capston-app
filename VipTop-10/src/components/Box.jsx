@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './Box.css'
+import '../style/Box.css'
 
 export const Box_content = () => {
     return (
