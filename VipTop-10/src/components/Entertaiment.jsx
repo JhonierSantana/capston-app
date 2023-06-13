@@ -20,26 +20,26 @@ export const Entertaiment = () => {
                         <picture>
                             <h3>Bowling Alley</h3>
                             <hr />
-                            <img src="../../img/img_service/meds.png" alt="Bowling Alley-logo" />
+                            <img src="../../img/img_service/meds.png" alt="Bowling Alley-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Casino</h3>
                             <hr />
-                            <img src="../../img/img_service/vet.png" alt="Casino-logo" />
+                            <img src="../../img/img_service/vet.png" alt="Casino-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Movie Theater</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Movie Theater-logo" />
+                            <img src="../../img/img_service/weights.png" alt="Movie Theater-logo" id='logito' />
                         </picture>
                     </div>
                 </div>
             </div>
-            <div className="carousel-item active">
+            <div className="carousel-item">
                 <div className="container" id='cr'>
                     <div className="item-box mt-3 rounded">
                         <picture>
@@ -52,25 +52,26 @@ export const Entertaiment = () => {
                         <picture>
                             <h3>Stadium</h3>
                             <hr />
-                            <img src="../../img/img_service/meds.png" alt="Stadium-logo" />
+                            <img src="../../img/img_service/meds.png" alt="Stadium-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Beauty Salon</h3>
                             <hr />
-                            <img src="../../img/img_service/vet.png" alt="Beauty Salon-logo" />
+                            <img src="../../img/img_service/vet.png" alt="Beauty Salon-logo" id='logito' />
                         </picture>
                     </div>
                     <div className="item-box mt-3 rounded">
                         <picture>
                             <h3>Spa</h3>
                             <hr />
-                            <img src="../../img/img_service/weights.png" alt="Spa" />
+                            <img src="../../img/img_service/weights.png" alt="Spa" id='logito' />
                         </picture>
                     </div>
                 </div>
             </div>
         </div >
+
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Container from 'react-bootstrap/Container';
 import '../style/App.css'
 import '../style/Box.css'
 import { Entertaiment } from './Entertaiment';
@@ -8,9 +9,11 @@ import { Entertaiment } from './Entertaiment';
 export const Box_content = () => {
     return (
         <div id="myCarousel" className="carousel slide">
-            ReactDOM.render{
-                <Entertaiment />
-            }
+            <Container>
+                ReactDOM.render(
+                    <Entertaiment />
+                )
+            </Container>
             <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
