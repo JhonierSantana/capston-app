@@ -5,18 +5,18 @@ import Form from 'react-bootstrap/Form';
 export const SearchBar = () => {
   return (
     <Container>
-      <div className='search-bar rounded-4 py-4 mb-3 d-flex'>
-        <div className="mx-2 flex-grow-1">
+      <div className='search-bar rounded-4 py-2 mb-3 d-flex'>
+        <div className="me-2 flex-grow-1">
           <Form>
             <Form.Control type='text' placeholder='Country...' />
           </Form>
         </div>
-        <div className="mx-2 flex-grow-1">
+        <div className="me-2 flex-grow-1">
           <Form>
             <Form.Control type='text' placeholder='City...' />
           </Form>
         </div>
-        <div className="ms-3 flex-grow-1">
+        <div className="flex-grow-1">
           <Form>
             <Form.Select name='City'>
               <option value=''>Category...</option>
