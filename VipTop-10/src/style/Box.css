@@ -9,9 +9,19 @@
     background-color: #ccc;
     width: 350px;
     height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #cr {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-box picture img {
+    width: 200px;
+    height: 200px;
 }
