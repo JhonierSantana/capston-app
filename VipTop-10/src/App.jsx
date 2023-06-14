@@ -3,18 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircle, faGlobeAmericas, faLanguage, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { faCircle, faGlobeAmericas, faLanguage } from '@fortawesome/free-solid-svg-icons';
 
 export const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
   const [language, setLanguage] = useState('es');
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [languageOpen, setLanguageOpen] = useState(false);
   const settingsRef = useRef(null);
-
-  const handleDarkModeToggle = () => {
-    setDarkMode(!darkMode);
-  };
 
   const handleLanguageChange = (newLanguage) => {
     setLanguage(newLanguage);
@@ -49,7 +44,7 @@ export const App = () => {
 
   return (
     <>
-      <header className={`head-bar sticky-top py-2 ${darkMode ? 'dark-mode' : ''}`}>
+      <header className="head-bar sticky-top py-2">
         <Container>
           <picture>
             <img src="../img/logo.png" alt="logo" />
@@ -81,20 +76,6 @@ export const App = () => {
                   </Dropdown.Item>
                 </>
               )}
-              <Dropdown.Divider />
-              <Dropdown.Item as="button" onClick={handleDarkModeToggle}>
-                {darkMode ? (
-                  <>
-                    <FontAwesomeIcon icon={faSun} className="me-2" />
-                    Light Mode
-                  </>
-                ) : (
-                  <>
-                    <FontAwesomeIcon icon={faMoon} className="me-2" />
-                    Dark Mode
-                  </>
-                )}
-              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </Container>
