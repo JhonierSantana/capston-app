@@ -81,3 +81,22 @@
 .btn{
   background-color: #EB5E28;
 }
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-menu button:hover {
+  background-color: #5d6165;
+}
+
+
+
+
+
+
