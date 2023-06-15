@@ -3,7 +3,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .head-bar {
-    background-color: #FFFCF2;
+    background-color: #2B2D42;
 }
 
 
@@ -35,7 +35,7 @@
   height: 11vh;
   display: flex;
   align-items: center;
-  background-color: #FFFCF2;
+  background-color: #EDF2F4;
 }
 
 .search-bar .form-control {
@@ -49,19 +49,6 @@
   flex-basis: 0; /* Reinicia el ancho base */
   margin-right: 10px;
 }
-
-
-
-.footer-bar {
-  background-color: #FFFCF2;
-  padding: 10px;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-
 
 @media (min-width: 768px) {
   .footer-bar {
@@ -79,7 +66,7 @@
   height: 150px;
 }
 .btn{
-  background-color: #EB5E28;
+  background-color: #D90429;
 }
 
 .dropdown-menu button {
