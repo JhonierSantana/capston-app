@@ -47,9 +47,8 @@ export const App = () => {
       <header className="head-bar sticky-top py-2">
         <Container>
           <picture>
-            <img src="../img/logo.png" alt="logo" />
+            <img src="../img/logo-no-background.png" alt="logo" />
           </picture>
-          <h4>VIPTOP-10</h4>
           <Dropdown
             className="btn-group"
             show={settingsOpen}
