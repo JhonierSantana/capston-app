@@ -8,11 +8,13 @@ import { Attractions } from './Attractions';
 import { Food } from './Food';
 import { Shopping } from './Shopping';
 import { Service } from './Service';
+import Container from 'react-bootstrap/esm/Container';
 
 export const Carousel = () => {
     return (
         <>
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
+        <Container>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <Entertainment />
@@ -30,6 +32,7 @@ export const Carousel = () => {
                         <Service />
                     </div>
                 </div>
+        </Container>
                 <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
