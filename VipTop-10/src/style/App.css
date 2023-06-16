@@ -72,7 +72,7 @@
 .dropdown-menu button {
   display: block;
   width: 100%;
-  padding: 0.5rem 1rem;
+  padding: 10 1rem;
   text-align: left;
   background-color: transparent;
   border: none;
@@ -80,6 +80,16 @@
 
 .dropdown-menu button:hover {
   background-color: #5d6165;
+}
+.settings-button {
+  margin-top: 5px;
+  padding: 10px 10px;
+  height: 50px; 
+  line-height: 30px; 
+}
+
+.settings-button .dropdown-text {
+  font-size: 14px;
 }
 
 

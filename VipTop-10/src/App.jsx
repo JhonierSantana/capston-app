@@ -55,9 +55,10 @@ export const App = () => {
             onClick={handleLanguageMenuClick}
             ref={settingsRef}
           >
-            <Dropdown.Toggle variant="secondary" className="btn" onClick={handleSettingsToggle}>
-              Settings
-            </Dropdown.Toggle>
+          <Dropdown.Toggle variant="secondary" className="btn settings-button" onClick={handleSettingsToggle}>
+              <span className="dropdown-text">Settings</span>
+          </Dropdown.Toggle>
+
             <Dropdown.Menu>
               <Dropdown.Item as="button" onClick={handleLanguageToggle}>
                 <FontAwesomeIcon icon={faLanguage} className="me-2" />
