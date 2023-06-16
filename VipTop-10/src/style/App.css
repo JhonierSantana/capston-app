@@ -10,10 +10,11 @@
 .head-bar .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .head-bar picture img {
-    width: 95px;
-    height: 60px;
+    width: 300px;
+    height: 35px;
 }
 .head-bar h4 {
     margin: 0;
@@ -82,7 +83,6 @@
   background-color: #5d6165;
 }
 .settings-button {
-  margin-top: 5px;
   padding: 10px 10px;
   height: 50px; 
 }
