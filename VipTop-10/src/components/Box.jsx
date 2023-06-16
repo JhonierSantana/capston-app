@@ -29,8 +29,11 @@ export const Box_content = ({ category }) => {
     case 'Service':
       content = <Service />;
       break;
-    default:
+    case 'Carousel':
       content = <Carousel />;
+      break;
+    default:
+      content = null;
 }
 return (
   <>

@@ -6,7 +6,7 @@ import { Box_content } from './Box';
 import { Carousel } from './Carousel';
 
 export const SearchBar = () => {
-  const [category, setCategory] = useState('');
+  const [category, setCategory] = useState('Carousel');
   const [country, setCountry] = useState('');
   const [city, setCity] = useState('');
   const [searched, setSearched] = useState(true);
