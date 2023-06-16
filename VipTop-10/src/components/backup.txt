@@ -1,0 +1,37 @@
+<div id="myCarousel" className="carousel slide">
+<div className="carousel-inner">
+      <div className="carousel-item active">
+        <div className="container" id="cr">
+          <div className="item-box mt-3 rounded">
+            <picture>
+              <h3>Amusement Park</h3>
+              <hr />
+              <img src="../../img/img_entertaiment/roller-coster.png" alt="Amusement Park-logo" id='logito' />
+            </picture>
+          </div>
+          <div className="item-box mt-3 rounded">
+            <picture>
+              <h3>Bowling Alley</h3>
+              <hr />
+              <img src="../../img/img_entertaiment/bowling-ball.png" alt="Bowling Alley-logo" id='logito' />
+            </picture>
+          </div>
+          <div className="item-box mt-3 rounded">
+            <picture>
+              <h3>Casino</h3>
+              <hr />
+              <img src="../../img/img_entertaiment/slot-machine.png" alt="Casino-logo" id='logito' />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+</div>

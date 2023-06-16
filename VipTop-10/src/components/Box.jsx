@@ -8,6 +8,7 @@ import { Attractions } from './Attractions';
 import { Food } from './Food';
 import { Shopping } from './Shopping';
 import { Service } from './Service';
+import { Carousel } from './Carousel';
 
 export const Box_content = ({ category }) => {
   let content = null;
@@ -29,26 +30,11 @@ export const Box_content = ({ category }) => {
       content = <Service />;
       break;
     default:
-      content = null;
-  }
-
-  return (
-    <div id="myCarousel" className="carousel slide">
-      <div className="carousel-inner">
-        {content}
-      </div>
-      {content && (
-        <>
-          <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </>
-      )}
-    </div>
-  );
+      content = <Carousel />;
+}
+return (
+  <>
+    {content}
+  </>
+);
 };

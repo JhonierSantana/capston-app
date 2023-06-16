@@ -3,20 +3,19 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Box_content } from './Box';
+import { Carousel } from './Carousel';
 
 export const SearchBar = () => {
   const [category, setCategory] = useState('');
   const [country, setCountry] = useState('');
   const [city, setCity] = useState('');
-  const [searched, setSearched] = useState(false);
+  const [searched, setSearched] = useState(true);
 
-  const handleSearch = () => {
-    setSearched(true);
-  };
+
 
   const handleCategoryChange = (e) => {
     setCategory(e.target.value);
-    setSearched(false);
+    setSearched(true);
   };
 
   return (
@@ -56,9 +55,6 @@ export const SearchBar = () => {
             </Form.Select>
           </Form>
         </div>
-        <Button variant="secondary" className="btn" onClick={handleSearch}>
-          Search
-        </Button>
       </div>
 
       {searched && category && <Box_content category={category} />}
