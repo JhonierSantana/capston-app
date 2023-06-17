@@ -32,7 +32,7 @@
   
   .item-box {
     background-color: #EDF2F4;
-    width: 200px;
+    width: 220px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@
   }
   
   .item-box:hover {
-    box-shadow: 0px 0px 20px #2B2D42;
+    box-shadow: 0px 0px 15px #D90429;
     cursor: pointer;
   }
   
@@ -50,7 +50,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    
+    margin-bottom: 7px;
   }
   
   .item-box picture img {
@@ -63,7 +63,7 @@
   }
   
   .item-box:hover h3 {
-    color: #669bbc;
+    color: #D90429;
   }
   
   .carousel-control {
