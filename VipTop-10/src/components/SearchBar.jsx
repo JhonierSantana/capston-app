@@ -20,8 +20,8 @@ export const SearchBar = () => {
 
   return (
     <Container>
-      <div className="search-bar rounded-4 py-2 mb-3 d-flex">
-        <div className="me-2 flex-grow-1">
+      <div className="search-bar rounded-4 mb-3 d-flex">
+        <div className="mx-2 flex-grow-1">
           <Form>
             <Form.Control
               type="text"

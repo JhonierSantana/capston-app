@@ -7,21 +7,21 @@ import '../style/Box.css'
 export const Food = () => {
     return (
         <div className="container" id='cr'>
-            <div className="item-box mt-3 rounded">
+            <div className="item-box mt-3 rounded-4">
                 <picture>
                     <h3>Bakery</h3>
                     <hr />
                     <img src="../../img/img_food/cupcake.png" alt="Bakery-logo" id='logito' />
                 </picture>
             </div>
-            <div className="item-box mt-3 rounded">
+            <div className="item-box mt-3 rounded-4">
                 <picture>
                     <h3>Bar</h3>
                     <hr />
                     <img src="../../img/img_food/beer.png" alt="Bar-logo" id='logito' />
                 </picture>
             </div>
-            <div className="item-box mt-3 rounded">
+            <div className="item-box mt-3 rounded-4">
                 <picture>
                     <h3>Cafe</h3>
                     <hr />
@@ -29,14 +29,14 @@ export const Food = () => {
                 </picture>
             </div>
 
-            <div className="item-box mt-3 rounded">
+            <div className="item-box mt-3 rounded-4">
                 <picture>
                     <h3>Meal Takeaway</h3>
                     <hr />
                     <img src="../../img/img_food/takeaway.png" alt="Meal Takeaway-logo" id='logito' />
                 </picture>
             </div>
-            <div className="item-box mt-3 rounded">
+            <div className="item-box mt-3 rounded-4">
                 <picture>
                     <h3>Restaurant</h3>
                     <hr />

@@ -7,28 +7,28 @@ import '../style/Box.css'
 export const Service = () => {
     return (
         <div className="container" id='cr'>
-            <div className="item-box mt-3 rounded">
+            <div className="item-box mt-3 rounded-4">
                 <picture>
                     <h3>Car Rental</h3>
                     <hr />
                     <img src="../../img/img_service/car-rent.png" alt="Car Rental-logo" id='logito' />
                 </picture>
             </div>
-            <div className="item-box mt-3 rounded">
+            <div className="item-box mt-3 rounded-4">
                 <picture>
                     <h3>Gym</h3>
                     <hr />
                     <img src="../../img/img_service/weights.png" alt="Gym-logo" id='logito' />
                 </picture>
             </div>
-            <div className="item-box mt-3 rounded">
+            <div className="item-box mt-3 rounded-4">
                 <picture>
                     <h3>Pharmacy</h3>
                     <hr />
                     <img src="../../img/img_service/meds.png" alt="Pharmacy-logo" id='logito' />
                 </picture>
             </div>
-            <div className="item-box mt-3 rounded">
+            <div className="item-box mt-3 rounded-4">
                 <picture>
                     <h3>Veterinary Care</h3>
                     <hr />
