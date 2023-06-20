@@ -3,25 +3,31 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../style/App.css'
 import '../style/Box.css'
+import { useNavigate } from "react-router-dom";
 
 export const Food = () => {
+    const navigate = useNavigate();
+
+    function SearchClick() {
+        navigate('/search')
+    }
     return (
         <div className="container" id='cr'>
-            <div className="item-box mt-3 rounded-4">
+            <div className="item-box mt-3 rounded-4" onClick={SearchClick}>
                 <picture>
                     <h3>Bakery</h3>
                     <hr />
                     <img src="../../img/img_food/cupcake.png" alt="Bakery-logo" id='logito' />
                 </picture>
             </div>
-            <div className="item-box mt-3 rounded-4">
+            <div className="item-box mt-3 rounded-4" onClick={SearchClick}>
                 <picture>
                     <h3>Bar</h3>
                     <hr />
                     <img src="../../img/img_food/beer.png" alt="Bar-logo" id='logito' />
                 </picture>
             </div>
-            <div className="item-box mt-3 rounded-4">
+            <div className="item-box mt-3 rounded-4" onClick={SearchClick}>
                 <picture>
                     <h3>Cafe</h3>
                     <hr />
@@ -29,14 +35,14 @@ export const Food = () => {
                 </picture>
             </div>
 
-            <div className="item-box mt-3 rounded-4">
+            <div className="item-box mt-3 rounded-4" onClick={SearchClick}>
                 <picture>
                     <h3>Meal Takeaway</h3>
                     <hr />
                     <img src="../../img/img_food/takeaway.png" alt="Meal Takeaway-logo" id='logito' />
                 </picture>
             </div>
-            <div className="item-box mt-3 rounded-4">
+            <div className="item-box mt-3 rounded-4" onClick={SearchClick}>
                 <picture>
                     <h3>Restaurant</h3>
                     <hr />
