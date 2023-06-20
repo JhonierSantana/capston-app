@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Dropdown from 'react-bootstrap/Dropdown';
-import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle, faGlobeAmericas, faLanguage } from '@fortawesome/free-solid-svg-icons';
 

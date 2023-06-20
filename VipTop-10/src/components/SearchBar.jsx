@@ -20,6 +20,7 @@ export const SearchBar = () => {
 
   return (
     <Container>
+      <br id='app' />
       <div className="search-bar rounded-4 mb-3 d-flex">
         <div className="mx-2 flex-grow-1">
           <Form>

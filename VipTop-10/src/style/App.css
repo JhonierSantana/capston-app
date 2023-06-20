@@ -14,20 +14,28 @@
 }
 .head-bar picture img {
     width: 300px;
-    height: 35px;
+    height: 45px;
 }
 .head-bar h4 {
     margin: 0;
 }
 
 .jumbotron {
-  margin-top: 15px;
-  color: white;
-  height: 500px;
-  display: flex;
+  color: #2B2D42;
+  height: 350px;
   align-items: center;
-  background: url(../../img/img_jumbotron/jumbotron.jpg) no-repeat;
-  background-size: 100%;
+  background: url(../../img/img_jumbotron/jumbotron_opcion_4.jpg) no-repeat;
+  background-position: 0px -50px;
+  background-size: cover;
+}
+
+.info {
+  margin-left: 53%;
+}
+
+.app {
+  margin-left: 53%;
+  border: none;
 }
 
 .search-bar {
@@ -66,7 +74,9 @@
   height: 150px;
 }
 .btn{
-  background-color: #D90429;
+  background-color: #EDF2F4;
+  color: #2B2D42;
+
 }
 
 .dropdown-menu button {

@@ -41,7 +41,8 @@
   }
   
   .item-box:hover {
-    box-shadow: 0px 0px 15px #D90429;
+    background-color: #535780;
+    box-shadow: 0px 0px 20px #2B2D42;
     cursor: pointer;
   }
   
@@ -59,11 +60,15 @@
   }
   
   h3 {
-    color: #252422;
+    color: #2B2D42;
   }
   
   .item-box:hover h3 {
-    color: #D90429;
+    color: #EDF2F4;
+  }
+
+  .item-box:hover hr {
+    color: #EDF2F4;
   }
   
   .carousel-control {
