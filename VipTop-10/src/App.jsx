@@ -46,7 +46,7 @@ export const App = () => {
       <header className="head-bar sticky-top py-2">
         <Container>
           <picture>
-            <img src="../img/logo-no-background.png" alt="logo" />
+            <a href='http://localhost:5173/'><img src="../img/logo-no-background.png" alt="logo" /></a>
           </picture>
           <Dropdown
             className="btn-group"
