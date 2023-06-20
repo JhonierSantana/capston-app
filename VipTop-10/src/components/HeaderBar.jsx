@@ -3,12 +3,18 @@ import Container from 'react-bootstrap/Container';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle, faGlobeAmericas, faLanguage } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from "react-router-dom";
 
 export const Headerbar = () => {
+    const navigate = useNavigate();
     const [language, setLanguage] = useState('es');
     const [settingsOpen, setSettingsOpen] = useState(false);
     const [languageOpen, setLanguageOpen] = useState(false);
     const settingsRef = useRef(null);
+
+    function HomeClick() {
+        navigate("/");
+    }
 
     const handleLanguageChange = (newLanguage) => {
         setLanguage(newLanguage);
@@ -45,8 +51,8 @@ export const Headerbar = () => {
         <>
             <header className="head-bar sticky-top py-2">
                 <Container>
-                    <picture>
-                        <a href='http://localhost:5173/'><img src="../img/logo-no-background.png" alt="logo" /></a>
+                    <picture className='Logo' onClick={HomeClick}>
+                        <img src="../img/logo-no-background.png" alt="logo" />
                     </picture>
                     <Dropdown
                         className="btn-group"
