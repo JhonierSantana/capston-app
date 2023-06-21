@@ -1,21 +1,25 @@
 import React from 'react';
-import { Headerbar } from './components/HeaderBar.jsx';
-import { MainBody } from './components/MainBody.jsx';
-import { FooterNav } from './components/FooterNav.jsx';
-import { SearchBar } from './components/SearchBar.jsx';
-import { Box_content } from './components/Box.jsx';
+import { Searchpage } from './routes/Searchpage.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../src/style/App.css';
-import '../src/style//index.css';
+import './style/App.css';
+import './style//index.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Home } from './routes/Home.jsx';
 
 export const App = () => {
+
+  const router = createBrowserRouter([{
+    path: "/",
+    element: <Home />,
+    errorElement: <h1>Error</h1>
+  },
+  {
+    path: "/search",
+    element: <Searchpage />
+  }]);
   return (
-  <>
-    <Headerbar />
-    <MainBody />
-    <SearchBar />
-    <Box_content />
-    <FooterNav />
-  </>
+    <>
+      <RouterProvider router={router} />
+    </>
   )
 };
