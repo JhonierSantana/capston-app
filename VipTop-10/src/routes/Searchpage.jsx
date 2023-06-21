@@ -11,8 +11,6 @@ export const Searchpage = () => {
     return (
         <>
             <Headerbar />
-            <SearchBar />
-            <Box_content />
             <FooterNav />
         </>
     )

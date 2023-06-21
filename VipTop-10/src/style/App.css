@@ -27,6 +27,13 @@
   background: url(../../img/img_jumbotron/jumbotron_opcion_4.jpg) no-repeat;
   background-position: 0px -50px;
   background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .info {

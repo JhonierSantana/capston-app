@@ -29,7 +29,11 @@
     position: relative;
   }
   
-  
+  .carousel h1{
+    color: #2B2D42;
+    text-align: center;
+  }
+
   .item-box {
     background-color: #EDF2F4;
     width: 220px;

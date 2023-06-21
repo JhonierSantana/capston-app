@@ -14,25 +14,30 @@ export const Carousel = () => {
     return (
         <>
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
-        <Container>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <Entertainment />
+                <Container>
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <h1>Entertainment</h1>
+                            <Entertainment />
+                        </div>
+                        <div className="carousel-item">
+                            <h1>Attractions</h1>
+                            <Attractions />
+                        </div>
+                        <div className="carousel-item">
+                            <h1>Food</h1>
+                            <Food />
+                        </div>
+                        <div className="carousel-item">
+                            <h1>Shopping</h1>
+                            <Shopping />
+                        </div>
+                        <div className="carousel-item">
+                            <h1>Service</h1>
+                            <Service />
+                        </div>
                     </div>
-                    <div className="carousel-item">
-                        <Attractions />
-                    </div>
-                    <div className="carousel-item">
-                        <Food />
-                    </div>
-                    <div className="carousel-item">
-                        <Shopping />
-                    </div>
-                    <div className="carousel-item">
-                        <Service />
-                    </div>
-                </div>
-        </Container>
+                </Container>
                 <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>

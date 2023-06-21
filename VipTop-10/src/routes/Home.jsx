@@ -14,7 +14,6 @@ export const Home = () => {
             <Headerbar />
             <MainBody />
             <SearchBar />
-            <Box_content />
             <FooterNav />
         </>
     )
