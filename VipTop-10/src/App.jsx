@@ -22,6 +22,10 @@ import { ConvStoreTop } from './routes/Shopping/ConvStoreTop.jsx';
 import { DepStoreTop } from './routes/Shopping/DepStoreTop.jsx';
 import { JewelryStoreTop } from './routes/Shopping/JewelryStoreTop.jsx';
 import { LiquorStoreTop } from './routes/Shopping/LiquorStoreTop.jsx';
+import { CarRentalTop } from './routes/TopService/CarRentalTop.jsx';
+import { GymTop } from './routes/TopService/GymTop.jsx';
+import { PharmacyTop } from './routes/TopService/PharmacyTop.jsx';
+import { VeterinaryCareTop } from './routes/TopService/VeterinaryCareTop.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/App.css';
 import './style//index.css';
@@ -131,6 +135,22 @@ export const App = () => {
     {
       path: "/liquor_store_top",
       element: <LiquorStoreTop />
+    },
+    {
+      path: "/car_rental_top",
+      element: <CarRentalTop />
+    },
+    {
+      path: "/gym_top",
+      element: <GymTop />
+    },
+    {
+      path: "/pharmacy_top",
+      element: <PharmacyTop />
+    },
+    {
+      path: "/veterinary_care_top",
+      element: <VeterinaryCareTop />
     },
   ]);
   return (
