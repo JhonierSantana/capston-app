@@ -12,6 +12,11 @@ import { ArtGalleryTop } from './routes/Attractions/ArtGalleryTop.jsx';
 import { MuseumTop } from './routes/Attractions/MuseumTop.jsx';
 import { TouristAttractionTop } from './routes/Attractions/TouristAttractionTop.jsx';
 import { ZooTop } from './routes/Attractions/ZooTop.jsx';
+import { BakeryTop } from './routes/Food/BakeryTop.jsx';
+import { BarTop } from './routes/Food/BarTop.jsx';
+import { CafeTop } from './routes/Food/CafeTop.jsx';
+import { MealTakeawayTop } from './routes/Food/MealTakeawayTop.jsx';
+import { RestaurantTop } from './routes/Food/RestaurantTop.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/App.css';
 import './style//index.css';
@@ -81,6 +86,26 @@ export const App = () => {
     {
       path: "/zoo_top",
       element: <ZooTop />
+    },
+    {
+      path: "/bakery_top",
+      element: <BakeryTop />
+    },
+    {
+      path: "/bar_top",
+      element: <BarTop />
+    },
+    {
+      path: "/cafe_top",
+      element: <CafeTop />
+    },
+    {
+      path: "/meal_takeaway_top",
+      element: <MealTakeawayTop />
+    },
+    {
+      path: "/restaurant_top",
+      element: <RestaurantTop />
     },
   ]);
   return (
