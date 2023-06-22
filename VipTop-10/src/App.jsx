@@ -17,6 +17,11 @@ import { BarTop } from './routes/Food/BarTop.jsx';
 import { CafeTop } from './routes/Food/CafeTop.jsx';
 import { MealTakeawayTop } from './routes/Food/MealTakeawayTop.jsx';
 import { RestaurantTop } from './routes/Food/RestaurantTop.jsx';
+import { BookStoreTop } from './routes/Shopping/BookStoreTop.jsx';
+import { ConvStoreTop } from './routes/Shopping/ConvStoreTop.jsx';
+import { DepStoreTop } from './routes/Shopping/DepStoreTop.jsx';
+import { JewelryStoreTop } from './routes/Shopping/JewelryStoreTop.jsx';
+import { LiquorStoreTop } from './routes/Shopping/LiquorStoreTop.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/App.css';
 import './style//index.css';
@@ -106,6 +111,26 @@ export const App = () => {
     {
       path: "/restaurant_top",
       element: <RestaurantTop />
+    },
+    {
+      path: "/book_store_top",
+      element: <BookStoreTop />
+    },
+    {
+      path: "/conv_store_top",
+      element: <ConvStoreTop />
+    },
+    {
+      path: "/dep_store_top",
+      element: <DepStoreTop />
+    },
+    {
+      path: "/jewelry_store_top",
+      element: <JewelryStoreTop />
+    },
+    {
+      path: "/liquor_store_top",
+      element: <LiquorStoreTop />
     },
   ]);
   return (
