@@ -1,0 +1,11 @@
+.list {
+    background-color: #EDF2F4;
+    height: 270px;
+    display: flex;
+}
+
+.top_img {
+    margin: 10px 10px;
+    width: 150px;
+    height: 150px;
+}

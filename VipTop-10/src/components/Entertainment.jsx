@@ -9,7 +9,7 @@ export const Entertainment = () => {
   const navigate = useNavigate();
 
   function SearchClick() {
-    navigate("/search");
+    navigate("/amusement_park_top");
   }
   return (
     <div className="container" id="cr">

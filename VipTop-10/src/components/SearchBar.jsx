@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import { Box_content } from './Box';
-import { Carousel } from './Carousel';
 
 export const SearchBar = () => {
   const [category, setCategory] = useState('Carousel');

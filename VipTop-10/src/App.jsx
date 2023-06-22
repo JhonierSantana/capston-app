@@ -1,5 +1,5 @@
 import React from 'react';
-import { Searchpage } from './routes/Searchpage.jsx';
+import { AmusementParkTop } from './routes/AmusementParkTop.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/App.css';
 import './style//index.css';
@@ -14,8 +14,8 @@ export const App = () => {
     errorElement: <h1>Error</h1>
   },
   {
-    path: "/search",
-    element: <Searchpage />
+    path: "/amusement_park_top",
+    element: <AmusementParkTop />
   }]);
   return (
     <>
