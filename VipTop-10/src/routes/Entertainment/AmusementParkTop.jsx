@@ -11,9 +11,9 @@ export const AmusementParkTop = () => {
     return (
         <>
             <Headerbar />
-            <h1 className='title mt-3'>Top's title</h1>
+            <h1 className='title mt-3'>Top 10 Amusement Parks</h1>
             <hr />
-            <ListItem top_image='top_10.png' />
+            <ListItem top_image="top_10.png" top_place_img="park_1.jpeg" />
             <ListItem top_image='top_9.png' />
             <ListItem top_image='top_8.png' />
             <ListItem top_image='top_7.png' />
