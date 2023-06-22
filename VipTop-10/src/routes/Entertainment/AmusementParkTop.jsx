@@ -1,12 +1,10 @@
 import React from 'react';
-import { Headerbar } from '../components/HeaderBar.jsx';
-import { ListItem } from '../components/ListItem.jsx';
-import { FooterNav } from '../components/FooterNav.jsx';
-import { SearchBar } from '../components/SearchBar.jsx';
-import { Box_content } from '../components/Box.jsx';
+import { Headerbar } from '../../components/HeaderBar.jsx';
+import { ListItem } from '../../components/ListItem.jsx';
+import { FooterNav } from '../../components/FooterNav.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../style/App.css';
-import '../style//index.css';
+import '../../style/App.css';
+import '../../style//index.css';
 
 export const AmusementParkTop = () => {
 
