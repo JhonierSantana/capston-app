@@ -9,7 +9,7 @@ export const Entertainment = () => {
 
   return (
     <div className="container" id="cr">
-      <Link className='top_list' to={"/amusement_park_top"}>
+      <Link className='top_list' to={"amusement_park_top"}>
         <div className="item-box mt-3 rounded-4">
           <picture>
             <h3>Amusement Park</h3>

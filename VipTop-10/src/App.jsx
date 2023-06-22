@@ -7,6 +7,11 @@ import { NightClubTop } from './routes/Entertainment/NightClubTop.jsx';
 import { StadiumTop } from './routes/Entertainment/StadiumTop.jsx';
 import { BeautySalonTop } from './routes/Entertainment/BeautySalonTop.jsx';
 import { SpaTop } from './routes/Entertainment/SpaTop.jsx';
+import { AquariumTop } from './routes/Attractions/AquariumTop.jsx';
+import { ArtGalleryTop } from './routes/Attractions/ArtGalleryTop.jsx';
+import { MuseumTop } from './routes/Attractions/MuseumTop.jsx';
+import { TouristAttractionTop } from './routes/Attractions/TouristAttractionTop.jsx';
+import { ZooTop } from './routes/Attractions/ZooTop.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/App.css';
 import './style//index.css';
@@ -56,6 +61,26 @@ export const App = () => {
     {
       path: "/spa_top",
       element: <SpaTop />
+    },
+    {
+      path: "/aquarium_top",
+      element: <AquariumTop />
+    },
+    {
+      path: "/art_gallery_top",
+      element: <ArtGalleryTop />
+    },
+    {
+      path: "/museum_top",
+      element: <MuseumTop />
+    },
+    {
+      path: "/tourist_attraction_top",
+      element: <TouristAttractionTop />
+    },
+    {
+      path: "/zoo_top",
+      element: <ZooTop />
     },
   ]);
   return (
