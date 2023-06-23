@@ -1,19 +1,27 @@
-import React from 'react'
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
-import '../style/ListItem.css'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import '../style/ListItem.css';
 
-
-export const ListItem = ({top_image, top_place_img}) => {
+export const ListItem = ({ top_image, top_place_img }) => {
   return (
-    <Container>
-      <div className='list rounded-4 my-3'>
-        <img className='top_img' src={`../../img/img_top/${top_image}`} alt="Top image" />
-        <img className='top_place_img rounded-4' src={`../../img/img_places/${top_place_img}`} alt="place image" />
-        <h4>Holbertonlandia</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusantium dolore perspiciatis, modi illum animi eum, recusandae nesciunt est voluptatibus facere? Aliquid a blanditiis porro facere! Corrupti nulla consectetur provident.</p>
-        <img className='icon' src="../../img/icons/map.png" alt="map" />
-      </div>
+    <Container className="custom-container">
+      <Row>
+        <Col xs={10} sm={8} md={6} lg={4} className="text-center">
+          <div className='list1 rounded-4 my-3'>
+            <div className="image-container">
+              <img className='top_img' src={top_image} alt="Top image" />
+            </div>
+            <div className="content">
+              <h4>Holbertonlandia</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusantium dolore perspiciatis, modi illum animi eum, recusandae nesciunt est voluptatibus facere? Aliquid a blanditiis porro facere! Corrupti nulla consectetur provident.</p>
+            </div>
+          </div>
+        </Col>
+      </Row>
     </Container>
-  )
-}
+  );
+};
+

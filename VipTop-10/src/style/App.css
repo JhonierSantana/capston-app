@@ -25,16 +25,20 @@
   height: 350px;
   align-items: center;
   background: url(../../img/img_jumbotron/jumbotron_opcion_4.jpg) no-repeat;
-  background-position: 0px -50px;
+  background-position: 50% 50%;
   background-size: cover;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .jumbotron {
+    background-position: 50% 25%;
+    height: 250px;
+  }
+}
+
 
 .info {
   margin-left: 53%;
@@ -119,4 +123,8 @@
 a {
   text-decoration: none;
   color: #000;
+}
+.col-centered {
+  display: flex;
+  justify-content: center;
 }
