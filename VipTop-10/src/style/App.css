@@ -30,22 +30,26 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center; /* Add text alignment to center */
 }
 
 @media (max-width: 768px) {
   .jumbotron {
     background-position: 50% 25%;
-    height: 250px;
+    height: auto; /* Set height to auto to accommodate variable content */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
-
 .info {
-  margin-left: 53%;
+  margin: 0; /* Remove margin-left */
 }
 
 .app {
-  margin-left: 53%;
+  margin: 0; /* Remove margin-left */
   border: none;
 }
 
