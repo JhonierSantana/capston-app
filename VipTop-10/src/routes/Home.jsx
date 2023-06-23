@@ -7,6 +7,7 @@ import { Box_content } from '../components/Box.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/App.css';
 import '../style//index.css';
+import Container from 'react-bootstrap/esm/Container.js';
 
 export const Home = () => {
     return (

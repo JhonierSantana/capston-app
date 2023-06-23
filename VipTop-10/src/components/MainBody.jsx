@@ -7,7 +7,7 @@ export const MainBody = () => {
       <div className='jumbotron'>
         <Container fluid className='py-5 px-5'>
           <h1 className='info display-7 fw-bold'>Aquí va info relevante</h1>
-          <p className='info col-md-6 fs-5'>
+          <p className='info fs-5'>
             Welcome to VIPTOP10, we got locations for you!!!
           </p>
           <a href="#app">
