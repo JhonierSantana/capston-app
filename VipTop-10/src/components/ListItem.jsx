@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import '../style/ListItem.css'
 
 
-export const ListItem = (place) => {
+export const ListItem = ({top_image, top_place_img}) => {
   return (
     <Container>
       <div className='list rounded-4 my-3'>
