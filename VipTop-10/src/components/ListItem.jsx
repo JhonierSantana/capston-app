@@ -9,7 +9,7 @@ export const ListItem = ({ top_image, top_place_img }) => {
   return (
     <Container className="custom-container">
       <Row>
-        <Col xs={10} sm={8} md={6} lg={4} className="text-center">
+        <Col className="text-center">
           <div className='list1 rounded-4 my-3'>
             <img className='top_img' src={`../../img/img_top/${top_image}`} alt="Top image" />
             <h4>Holbertonlandia</h4>
@@ -20,5 +20,3 @@ export const ListItem = ({ top_image, top_place_img }) => {
     </Container>
   )
 };
-
-

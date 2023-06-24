@@ -25,7 +25,6 @@ export const AmusementParkTop = () => {
   const renderListItems = () => {
     const rows = Math.ceil(items.length / columns);
   
-    // Rellena las cajas faltantes para obtener una distribución simétrica
     const diff = rows * columns - items.length;
     for (let i = 0; i < diff; i++) {
       items.push({ top_image: '', top_place_img: '' });
