@@ -10,13 +10,14 @@
 
 .head-bar .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .head-bar picture img {
   width: 280px;
   height: 45px;
+  justify-self: center;
 }
 
 .head-bar h4 {
