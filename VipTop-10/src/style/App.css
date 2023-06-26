@@ -28,8 +28,8 @@
   color: #2B2D42;
   height: 350px;
   align-items: center;
-  background: url(../../img/img_jumbotron/jumbotron_opcion_4.jpg) no-repeat;
-  background-position: 50% 50%;
+  background: url(../../img/img_jumbotron/jumbotron_img.png) no-repeat;
+  background-position: 50% 30%;
   background-size: cover;
   width: 100%;
   display: flex;
@@ -37,6 +37,11 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
   text-align: center;
+}
+.highlight {
+  background: rgba(29, 229, 255, 0.692);
+  border-radius: 8px;
+  padding: 2px;
 }
 
 @media (max-width: 768px) {
@@ -95,8 +100,8 @@
 }
 
 .btn {
-  background-color: #EDF2F4;
-  color: #2B2D42;
+  background-color: #2B2D42;
+  color: #ffffff;
 }
 
 .dropdown-menu button {
