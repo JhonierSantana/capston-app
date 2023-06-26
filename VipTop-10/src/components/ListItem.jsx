@@ -4,12 +4,15 @@ import '../style/App.css';
 import '../style//index.css';
 import '../style/ListItem.css';
 
-export const ListItem = ({ top_image, top_place_img }) => {
+export const ListItem = ({ top_image, place_img, place_title, place_description, place_address }) => {
   return (
       <div className='list1 rounded-4 my-3'>
         <img className='top_img' src={`../../img/img_top/${top_image}`} alt="Top image" />
-        <h4>Holbertonlandia</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusantium dolore perspiciatis, modi illum animi eum, recusandae nesciunt est voluptatibus facere? Aliquid a blanditiis porro facere! Corrupti nulla consectetur provident.</p>
+        <br />
+        <img className='place_img rounded-4' src={`../../img/img_places/${place_img}`} alt="Place image" />
+        <h4 className='fs-3'>{`${place_title}`}</h4>
+        <p className='fs-4'>{`${place_description}`}</p>
+        <p className='fs-5'>{`${place_address}`}</p>
       </div>
   )
 };
