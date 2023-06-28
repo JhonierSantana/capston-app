@@ -43,7 +43,7 @@ export const AmusementParkTop = () => {
           place_title='SnappyPark' place_description='Entertainment, Fun, Park.'
           place_address='4050 Formula Lane, Fremont, 469-718-6489' />
         <ListItem className='list1' top_image='top_1.png' place_img='park_2.png'
-          place_title='SnappyPark' place_description='Entertainment, Fun, Park.'
+          place_title='MerryGoRound' place_description='Entertainment, Fun, Park.'
           place_address='51 Pinnickinick Street, Fremont, 360-769-3691' />
       </Container>
       <FooterNav />
