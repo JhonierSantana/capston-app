@@ -12,22 +12,40 @@ export const AquariumTop = () => {
   return (
     <>
       <Headerbar />
-      <h1 className='title mt-3'>Top's title</h1>
+      <h1 className='title mt-3'>Top 10 aquariums</h1>
       <hr />
       <Container className='Outer'>
         <ListItem className='list1' top_image='top_10.png' place_img='aquarium_1.jpg'
         place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
         place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
-        <ListItem className='list1' top_image='top_9.png' />
-        <ListItem className='list1' top_image='top_8.png' />
-        <ListItem className='list1' top_image='top_7.png' />
-        <ListItem className='list1' top_image='top_6.png' />
-        <ListItem className='list1' top_image='top_5.png' />
-        <ListItem className='list1' top_image='top_4.png' />
-        <ListItem className='list1' top_image='top_3.png' />
-        <ListItem className='list1' top_image='top_2.png' />
-        <ListItem className='list1' top_image='top_1.png' />
-      </Container>
+        <ListItem className='list1' top_image='top_9.png' place_img='aquarium_1.jpg'
+        place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
+        place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
+        <ListItem className='list1' top_image='top_8.png' place_img='aquarium_1.jpg'
+        place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
+        place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
+        <ListItem className='list1' top_image='top_7.png' place_img='aquarium_1.jpg'
+        place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
+        place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
+        <ListItem className='list1' top_image='top_6.png' place_img='aquarium_1.jpg'
+        place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
+        place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
+        <ListItem className='list1' top_image='top_5.png' place_img='aquarium_1.jpg'
+        place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
+        place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
+        <ListItem className='list1' top_image='top_4.png' place_img='aquarium_1.jpg'
+        place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
+        place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
+        <ListItem className='list1' top_image='top_3.png' place_img='aquarium_1.jpg'
+        place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
+        place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
+        <ListItem className='list1' top_image='top_2.png' place_img='aquarium_1.jpg'
+        place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
+        place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
+        <ListItem className='list1' top_image='top_1.png' place_img='aquarium_1.jpg'
+        place_title='Mistery Aquarium' place_description='Attraction, fish, sea.'
+        place_address='4605 Oakmound Road, Chicago, 773-227-3735' />
+        </Container>
       <FooterNav />
     </>
   )
