@@ -12,7 +12,7 @@ export const AmusementParkTop = () => {
   return (
     <>
       <Headerbar />
-      <h1 className='title mt-3'>Top's title</h1>
+      <h1 className='title mt-3'>Top 10 amusement park</h1>
       <hr />
       <Container className='Outer'>
         <ListItem className='list1' top_image='top_10.png' place_img='park_2.png'
