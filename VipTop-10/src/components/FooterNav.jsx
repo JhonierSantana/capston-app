@@ -8,10 +8,10 @@ export const FooterNav = () => {
     {
       title: "Front-end Team",
       resources: [
-        { name: "Daniel Ortiz", link: "/item5" },
-        { name: "Jhonier Santana", link: "/item6" },
-        { name: "Camilo Zapata", link: "/item7" },
-        { name: "Jerson Riascos", link: "/item8" }
+        { name: "Daniel Ortiz", link: "https://www.linkedin.com/in/daniel-ortiz-8b8983273/" },
+        { name: "Jhonier Santana", link: "https://www.linkedin.com/in/jhonier-yesid-santana-pedroza-457492265/" },
+        { name: "Camilo Zapata", link: "https://www.linkedin.com/in/camilo-zapata-41a045259/" },
+        { name: "Jerson Riascos", link: "https://www.linkedin.com/in/jerson-riascos-32b3ab272/" }
       ]
     },
     {
