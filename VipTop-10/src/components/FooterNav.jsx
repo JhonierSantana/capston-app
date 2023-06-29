@@ -1,9 +1,9 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/esm/Container.js';
+
 
 export const FooterNav = () => {
-  const description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At architecto possimus tenetur iure ducimus eveniet deserunt sapiente! Fugiat nihil id aperiam laboriosam magnam reiciendis, facilis officiis, possimus ad, veniam inventore?";
-  const title = <img className='img-footer' src="../img/logo-no-background.png" alt="logo" />;
-
   const columns = [
     {
       title: "Front-end Team",
@@ -33,10 +33,7 @@ export const FooterNav = () => {
 
   return (
     <footer className="footer">
-      <div className="container1">
-        <div className="footer-description">
-          <h3>{title}</h3>
-        </div>
+      <Container className="container1">
         <div className="footer-columns">
           {columns.map((column, index) => (
             <div key={index} className={`footer-column ${column.title === "Sponsors" ? "right-column" : ""}`}>
@@ -61,7 +58,7 @@ export const FooterNav = () => {
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </footer>
   );
 };
