@@ -147,39 +147,80 @@ a {
 
 .footer {
   background-color: #2B2D42;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   color: #EDF2F4;
   bottom: 0;
   left: 0;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.right-column {
+  order: 3;
+}
+
+.right-column .footer-resources {
+  display: flex;
+  flex-direction: row;
+}
+.right-column h4 {
+  margin-left: 14px;
 }
 
 .footer-description {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.footer-description h3 {
+  margin-top: 30px;
+  margin-left: 100px;
   margin-bottom: 10px;
-  color: #EDF2F4;
-  text-align: center;
+  max-width: 300px;
+  align-self: flex-start;
+  text-align: left;
 }
 
 .footer-columns {
   display: flex;
   justify-content: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -60px;
 }
 
 .footer-column {
-  margin-left: 30px;
+  margin-left: 140px;
+  margin-right: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  
 }
+
+.footer-column:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -125px;
+  height: 100%;
+  width: 1px;
+  background-color: #EDF2F4;
+}
+
 
 .footer-column h4 {
   margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-resources li {
+  margin-bottom: 5px;
+  list-style: none;
+  display: flex;
+  align-items: center;
   margin-bottom: 5px;
 }
 
@@ -191,6 +232,55 @@ a {
 .footer-resources a:hover {
   text-decoration: underline;
 }
+
+.img-footer {
+  width: 280px;
+  height: 45px;
+  justify-self: center;
+}
+
+.img-sponsors {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.img-sponsors1 {
+  width: 40px;
+  height: 38px;
+  margin-right: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .footer-columns {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .footer-column {
+    margin: 0 30px;
+    margin-top: 20px;
+    
+  }
+
+  .footer-description {
+    margin-top: 0;
+    margin-left: 58px;
+    margin-right: 20px;
+  }
+  .right-column h4 {
+    margin-left: 13px;
+    text-align: center;
+  }
+  .footer-column:not(:last-child)::after {
+    display: none
+  }
+}
+
 
 @media (max-width: 576px) {
   .head-bar picture img {
