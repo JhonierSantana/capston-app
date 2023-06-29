@@ -1,3 +1,4 @@
+// This file contains the app footer component that can be reused for different pages.
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/esm/Container.js';

@@ -1,3 +1,5 @@
+// this component creates a jumbotron that shows a message and
+//    directs the user to the application's searchbar.
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
@@ -16,6 +18,5 @@ export const MainBody = () => {
         </a>
       </Container>
     </div>
-
   )
 }

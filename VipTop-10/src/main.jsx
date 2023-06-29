@@ -1,3 +1,5 @@
+// This file is connected to index.html through the 'root' id
+//    and is the bridge that connects to the entire application.
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { App } from './App.jsx';

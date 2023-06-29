@@ -1,3 +1,4 @@
+// This file sets a base to organize each of the categories and give them their corresponding style.
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';

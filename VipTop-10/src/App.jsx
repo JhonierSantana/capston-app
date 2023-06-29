@@ -1,3 +1,5 @@
+// This file contains all the routes that the application
+//    uses and that leads to each of the pages.
 import React from 'react';
 import { AmusementParkTop } from './routes/Entertainment/AmusementParkTop.jsx';
 import { BowlingAlleyTop } from './routes/Entertainment/BowlingAlleyTop.jsx';

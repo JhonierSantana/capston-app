@@ -1,3 +1,6 @@
+// This component is the core of the application, it displays the
+//    information brought from the database so that the user can select the country,
+//    the city and the category of their preference.
 import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';

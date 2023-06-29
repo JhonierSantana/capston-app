@@ -1,3 +1,4 @@
+// This file contains the app header component that can be reused for different pages.
 import React, { useState, useRef, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import { useNavigate } from "react-router-dom";

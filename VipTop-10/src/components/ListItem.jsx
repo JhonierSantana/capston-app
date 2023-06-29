@@ -1,3 +1,4 @@
+// This component is in charge of displaying the information of each of the places within the list on the page.
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/App.css';

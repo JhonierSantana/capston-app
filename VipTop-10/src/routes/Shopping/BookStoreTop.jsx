@@ -1,3 +1,5 @@
+// This file calls different components like Headbar,
+//    Listitem and Footernav to create the Top 10 page for this category.
 import React from 'react'
 import { Headerbar } from '../../components/HeaderBar.jsx';
 import { ListItem } from '../../components/ListItem.jsx';
@@ -9,6 +11,8 @@ import '../../style/ListItem.css';
 import Container from 'react-bootstrap/esm/Container.js';
 
 export const BookStoreTop = () => {
+  // The Listitem component takes several arguments to display
+  //    the information for each place on the top list.
   return (
     <>
       <Headerbar />
